@@ -1,11 +1,11 @@
-install:
-  - yarn install
 stack: node 10
 branches:
 only:
   - master
 cache: node_modules
 build: off
+install:
+  - yarn install
 build_script:
   - yarn build
 test_script:
