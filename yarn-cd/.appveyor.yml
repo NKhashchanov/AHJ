@@ -1,16 +1,15 @@
-image: Script
 stack: node 10
 branches:
 only:
   - master
 cache: node_modules
-install:
-  - npm install
 build: off
+install:
+  - yarn install
 build_script:
-  - npm run build
+  - yarn build
 test_script:
-  - npm run lint && npm test
+  - yarn lint && yarn test
 deploy_script:
   - git config --global credential.helper store
   - git config --global user.name AppVeyor
