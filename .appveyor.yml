@@ -1,4 +1,3 @@
-image: Script
 stack: node 10
 branches:
 only:
