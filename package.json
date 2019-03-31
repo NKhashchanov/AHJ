@@ -24,7 +24,7 @@
   },
   "scripts": {
     "start": "http-server yarn-cd",
-    "test": "jest yarn-cd",
+    "test": "eslint yarn-cd",
     "build": "babel yarn-cd -d dist"
   },
   "repository": "git+https://github.com/NKhashchanov/AHJ.git",
